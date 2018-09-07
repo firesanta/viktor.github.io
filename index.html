@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Green Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="SHORTCUT ICON" href="titleico.png" type="image/x-icon">
+</head>
+<body>
+	<div class="header">		<!-- /*****SEARCH****/ -->
+		<div id="ovl"></div>
+		<img id="logo" src="logo.png">
+		<div class="header_inner">
+			<ul class="header">
+				<li><a href="">Главная</a></li>
+				<li><a href="index.html">Новости</a></li>
+			</ul>
+		</div>
+
+		<div class="search">		<!-- /*****SEARCH*****/ -->
+			<form action="/search" id="f" method="get">
+				<input id="q" type="search" name="q" placeholder="Введите запрос...">
+				<input name="searchval" id="qbutton" type="submit" formaction="https://www.google.com/search?q" value="Поиск">
+			</form>
+			<select name="searchSelect" size="1" form="f" id="selser">
+				<option class="searchop" selected value="1">Google</option>
+				<option class="searchop" value="2">Яндекс</option>
+			</select>
+		</div>
+	
+
+	<div class="userboard">	
+		<a id="ui" href="#"><img src="usericon01.png"></a>		
+	</div>
+	</div>
+
+	<div class="bookmarks">			<!-- /********BOOKMARKS********/ -->
+		
+		<ul class="folders">
+			
+			<li class="folder">
+				<button>folder 1</button>
+				<ul class="folder_inner">
+
+					<li class="bm"><a href="">bookmark1</a></li>
+					<li class="bm"><a href="">bookmark1</a></li>
+					<li class="bm"><a href="">bookmark1</a></li>
+					<li class="bm"><a href="">bookmark1</a></li>
+
+				</ul>
+
+			</li>
+
+			<li class="folder">
+				<button>folder 2</button>
+				<ul class="folder_inner">
+
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm"><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+					<li class="bm" ><a href="">bookmark2</a></li>
+
+				</ul>
+
+			</li>
+
+			<li class="folder">
+				<button>folder 3</button>
+				<ul class="folder_inner">
+
+					<li class="bm"><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm"><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+					<li class="bm" ><a href="">bookmark3</a></li>
+
+				</ul>
+
+			</li>
+
+		</ul>
+
+	</div>
+
+</body>
+</html>
